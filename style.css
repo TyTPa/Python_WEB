@@ -1,0 +1,32 @@
+.card{
+   width: 430px;
+   height: 750px;
+   background-color: burlywood;
+   border-radius: 20px;
+}
+.photo {
+   height: 5%;
+   padding: 7px;
+   # padding - это внутренний отступ
+   # Для внешних отступов используется margin
+}
+.info {
+   padding: 450px;
+   height: 10%;
+}
+img {
+   position: relative;
+   left:5%;
+   border-radius: 20px;
+}
+a:link {
+    color: deeppink;
+}
+
+a:visited {
+    color: olivedrab;
+}
+
+a:active{
+    color: royalblue;
+}
