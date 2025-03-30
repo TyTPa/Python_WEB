@@ -1,3 +1,5 @@
+
+
 .card{
    width: 430px;
    height: 750px;
@@ -29,4 +31,13 @@ a:visited {
 
 a:active{
     color: royalblue;
+}
+div: {
+    transition: 1s;
+}
+
+div:hover {
+    background-color: #0080ff;
+    # добавляем свойство для плавности:
+    transition: 1s;
 }
